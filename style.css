@@ -1,0 +1,64 @@
+.team-group{
+    background-image: linear-gradient(180deg, #333131 0%, rgba(0, 0, 0, 0.5) 100%), url('images/team.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.team-membar{
+    background: linear-gradient(180deg, #333131 0%, rgba(0, 0, 0, 0.5) 100%), url('images/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+
+}
+.team-membar1{
+    background: linear-gradient(180deg, #333131 0%, rgba(0, 0, 0, 0.5) 100%), url('images/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+
+}
+.team-membar2{
+    background: linear-gradient(180deg, #333131 0%, rgba(0, 0, 0, 0.5) 100%), url('images/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+
+}
+.team-membar3{
+    background: linear-gradient(180deg, #333131 0%, rgba(0, 0, 0, 0.5) 100%), url('images/banner4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+
+}
+.he-item{
+    visibility: visible;
+}
+@media screen and (max-width:500px) {
+    .team-membar background-image{
+        width: 100%;
+    }
+    .team-membar1 background-image{
+        width: 100%;
+    }
+    .team-membar2 background-image{
+        width: 100%;
+    }
+    .team-membar3 background-image{
+        width: 100%;
+    }
+    .he-item{
+        display: none;
+    }
+}
+@media screen and (max-width:1050px){
+    .he-item{
+        display: none;
+    }
+}
